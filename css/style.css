@@ -1,0 +1,78 @@
+:root {
+    --background-dark: #202124;
+    --russian-violet: #2F1847;
+    --mikado-yellow: #FFC800;
+    --carribean-current: #16697A;
+    --cambridge-blue: #96C0B7;
+    --engineering-orange: #B80C09;
+    --white: #FFFFFF;
+
+    /*--prussian-blue: #002c3dff;*/
+    /*--midnight-green: #005f73ff;*/
+    /*--dark-cyan: #0a9396ff;*/
+    /*--tiffany-blue: #94d2bdff;*/
+    /*--eggshell: #fffdf8;*/
+    /*--alloy-orange: #ca6702ff;*/
+    /*--rust: #bb3e03ff;*/
+    /*--rufous: #ae2012ff;*/
+    /*--auburn: #9b2226ff;*/
+}
+
+body {
+    background-color: var(--background-dark);
+    color: var(--white);
+}
+
+.main-col{
+    min-width: 80vw;
+}
+
+.container {
+    display: grid;
+    place-items: center
+}
+
+.commentary {
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--white);
+    padding-right: 30%;
+    margin-bottom: 20px;
+}
+
+.header {
+    padding-top: 2rem;
+    padding-top: 1rem;
+}
+.subheader {
+    padding-bottom: 1rem;
+}
+
+.btn {
+    background-color: var(--carribean-current) ;
+    border-color: var(--cambridge-blue);
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn:hover {
+    background-color: var(--mikado-yellow);
+    border-color: var(--engineering-orange);
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h1,h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--white);
+}
+
+h3 {
+    font-style: italic;
+}
